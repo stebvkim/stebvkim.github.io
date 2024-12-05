@@ -6,32 +6,28 @@ thumbnail-img: /assets/img/esp32.jpg
 mathjax: true
 ---
 
-This was my team's final project for 6.08, Embedded Systems, where we created a live sports tracking module on an ESP32.
+This was my team's final project for 6.08, Embedded Systems, where we created a live sports tracking module on an ESP32 connected to a monitor and other hardware.
 
 ## Introduction
 
-SportsBuddy is a system for viewing live game scores and finding nearby users to watch a particular sports game with.
+SportsBuddy was a system for viewing live game scores and finding nearby users to watch a particular sports game with. Users were given the option to choose from a list of different sports leagues (MLB, NBA, NHL), and upon selecting one, they could manually cycle through all of the ongoing games within that league to check the up-to-date game scores for those games, or filter the results to a list of selected "favorite" teams.
 
-As a general overview, users will be given the option to choose from a list of different sports leagues (MLB, NBA, NHL).
-
-After choosing a sports league, the user can manually cycle through all of the ongoing games within that league to check the up-to-date game scores for those games, or filter the results to a list of selected favorite teams.
-
-If the user finds a particular game that they are interested in watching with others, they will have the option to look for people in their geographical vicinity who also want to watch the game with others, and SportsBuddy will match them.
+If the user found a particular game that they were interested in watching with others, they had the option to look for people in their geographical vicinity who also wanted to watch the game with others, and SportsBuddy would match them.
 
 ## Methodology
 
-Here is the general structure for SportsBuddy:
+Here was the general structure for SportsBuddy:
 
 ![overfit](/assets/img/block_diagram.png){: .mx-auto.d-block :}
 
-And here is the full state diagram:
+And the full state diagram for the ESP32:
 
 ![overfit](/assets/img/608-state-diagram.png){: .mx-auto.d-block :}
 
 We used the following technologies and hardware:
 
-C (ESP32), Python (server-side code), REST APIs, sqlite, HTML, CSS, buttons, microphone
+C (ESP32), Python (server-side code), REST APIs, sqlite3 (database), HTML / CSS (sign-up website), buttons, microphone
 
 ## TODO
 
-Update with images and videos.
+Will update with images and videos showing how it worked.

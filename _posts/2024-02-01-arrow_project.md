@@ -6,11 +6,11 @@ thumbnail-img: /assets/img/stata.png
 mathjax: true
 ---
 
-I worked on this project with other researchers under Dr. Amar Gupta in partnership with Arrow Electronics from 2021-2024. I eventually led the team as a graduate student and wrote my M.Eng. thesis on it.
+I worked on this project with other researchers under Dr. Amar Gupta from 2021-2024. I eventually led the team as a graduate student and wrote my M.Eng. thesis on it.
 
 ## Introduction
 
-The goal is to develop an end-to-end automated pipeline for extracting key-value pairs from commercial documents provided by a sponsor.
+The goal was to develop an end-to-end automated pipeline for extracting key-value pairs from commercial documents provided by our sponsor, Arrow Electronics.
 
 ## Methodology
 
@@ -18,7 +18,7 @@ The goal is to develop an end-to-end automated pipeline for extracting key-value
 
 ## Relevant Links:
 
-Our group published two papers to the International Journal of Pattern Recognition and Artificial Intelligence on this pipeline. Also attached is my thesis.
+Our group wrote and published two papers to the International Journal of Pattern Recognition and Artificial Intelligence on the pipeline. Also attached is my thesis.
 
 Our first paper:
 
